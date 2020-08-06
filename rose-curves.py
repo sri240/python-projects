@@ -3,13 +3,12 @@ from math import cos
 from math import radians 
   
 import pygame 
-  
-# The width and height of our program 
+ 
 (width, height) = (800, 600)
 
 n = 0
   
-# Setup the window and init the screen surface 
+# setup window and init the screen surface 
 screen = pygame.display.set_mode((width, height)) 
   
 pygame.display.set_caption('rose curves :)') 
@@ -62,7 +61,7 @@ def redraw():
 
 
   
-# flip the drawn canvas with the newly created canvas (double-buffering) 
+# flip the drawn canvas with new canvas
 pygame.display.flip() 
 
 run = True
